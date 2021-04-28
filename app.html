@@ -18,11 +18,31 @@
     }
     div {
         border: 5px  violet;
-        background-color: tomato;
+        background-color: rgb(182, 61, 67);
         text-align: center;
         margin-top: 20px;
         height: 50px;
     }
+    .pill-nav a {
+  display: inline-block;
+  color: rgb(58, 59, 124);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.pill-nav a:hover {
+  background-color: rgb(10, 10, 10);
+  color: black;
+}
+
+.pill-nav a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+ 
 </style>
 </head>
 <body>
@@ -66,6 +86,15 @@
     <div>
         <p>Hi All indians</p>
     </div>
+
+    <h3>#How To Create a Pill Navigation Menu#</h3>
+
+<div class="pill-nav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
     <style>
         table, th, td {
           border: 1px solid black;
@@ -119,6 +148,13 @@
         <li>Mandi</li>
         <li>Shawarma</li>
     </ol>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
 
 </body>
 </html>
